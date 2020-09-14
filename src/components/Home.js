@@ -1,7 +1,7 @@
 import React from "react";
 import autumn from "../img/autumn.jpg";
 import granchester from "../img/granchesterMeadows.jpg";
-import eBikeIcon from "../img/icons8-electric-bike-50.png";
+// import eBikeIcon from "../img/icons8-electric-bike-50.png";
 import popularStamp from "../img/popularStamp.png";
 import { StyledDiv } from "../styles/style";
 import { Link } from "react-router-dom";
