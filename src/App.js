@@ -10,6 +10,11 @@ import Ourbikes from "./components/Ourbikes";
 import About from "./components/About";
 import Gallery from "./components/Gallery";
 import { AppStyled } from "./styles/style";
+import { Link } from "react-router-dom";
+import { Menu, Button} from "antd";
+
+
+
 
 
 
@@ -69,6 +74,25 @@ function App() {
         <a href="#top" className="float-up">
           <i className="fa  fa-angle-up my-float"></i>
         </a>
+
+        <Menu
+        theme="light"
+        mode="horizontal"
+        defaultSelectedKeys={["1"]}
+        style={{ lineHeight: "64px", backgroundColor: "#fff", display:"flex", justifyContent:"space-between" }}
+      >
+          
+       
+        <Link to="/contact">
+        <Menu.Item>
+<Button className="float-center">
+BOOK eBIKE
+</Button>
+</Menu.Item>
+</Link>
+</Menu>
+
+
       </div>
     </AppStyled>
   );

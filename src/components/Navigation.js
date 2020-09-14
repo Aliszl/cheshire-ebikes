@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Menu} from "antd";
+import { Menu, Button} from "antd";
 
 
 const Navigation = () => {
@@ -26,7 +26,11 @@ const Navigation = () => {
           <Link to="/about">ABOUT</Link>
         </Menu.Item>
         <Menu.Item key="5">
-          <Link to="/contact">BOOK eBIKE</Link>
+          <Link to="/contact">
+            <Button>
+            BOOK eBIKE
+            </Button>
+            </Link>
         </Menu.Item>
         
       </Menu>

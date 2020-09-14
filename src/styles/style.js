@@ -42,6 +42,20 @@ export const AppStyled = styled.div`
     text-align: center;
     /* box-shadow: 2px 2px 3px #999; */
   }
+
+  .float-center{
+    position: fixed;
+    width: 110px;
+    height: 40px;
+    bottom: 80px;
+    right: 44%;
+    background-color: #06c;
+    opacity:0.6;
+    color: #fff;
+    /* border-radius: 50px; */
+    text-align: center;
+    /* box-shadow: 2px 2px 3px #999; */
+  }
   .rowOfDogs {
     margin: 0;
     max-width: 100%;
