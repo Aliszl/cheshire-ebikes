@@ -1,6 +1,7 @@
 import React from "react";
 import { StyledDiv } from "../styles/style";
 import { Carousel } from "antd";
+
 import autumn from "../img/autumn.jpg";
 import granchester from "../img/granchesterMeadows.jpg";
 import paw from "../img/paw.png";
@@ -41,8 +42,8 @@ const Gallery = () => {
             <a href={  "http://www.cheshirecycleway.co.uk/wp-content/uploads/2018/08/Map-of-Cheshire-Cycleway-route-70.jpgfas"}>
             Pick up Route 70 (cheshire cycleway) at Knolls Green
             </a>{" "}
-           
-
+{/*            
+            <img className="image-left" src="" alt="" /> */}
             <br /> <br />Tatton Estate &nbsp;
             <a href={"https://www.visitcheshire.com/explore/knutsford-p33731"}>Knutsford</a>, famous mayday, georgian coaching town,  Italianate archtecture
              &nbsp;

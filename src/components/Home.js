@@ -72,13 +72,18 @@ const Home = () => {
             legal requirement. As with regular bikes lights are required at
             night, but not during day light. Hi-viz clothing isn't essential
             either.
+  
           </h2>
         </div>
+      <div>
+      </div>
+   
       </div>
 
       <br />
       <h2>We are passionate about cycling.</h2>
       <br />
+
       <h1 className="headerCentralised">Our Services</h1>
       <div className="services-top-row services-row">
         <div className="servicesBox">
@@ -124,7 +129,15 @@ const Home = () => {
           {/* <Link to="/services/boarding">Read More</Link> */}
         </div>
       </div>
+      <h2>
 
+Family & Group Pricing:<br/> 15% discount for rental of 4 bikes or more. Call us<br/>
+
+Minimum Age:<br/> The minimum legal age to ride an eBike is 14.<br/>
+
+Child Seats:<br/> Rear rack-mounted Child Seats available to rent with bikes from £5 and suitable for children 1-6 yrs old and under 22kg.
+<br/>
+  </h2>
       <div className="carousel-container">
         <div className="carouselandtext">
           <h1 className="headerCentralised">Testimonials</h1>
