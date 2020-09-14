@@ -7,68 +7,61 @@ const Contact = () => {
       <div className="social-media-icons">
         <div className="top-row">
           <div>
-
-          <a href="tel:+447971489600">
-            
-              <i  className="fa fa-phone" aria-hidden="true">
+            <a href="tel:+447971489600">
+              <i className="fa fa-phone" aria-hidden="true">
                 {" "}
-                <h1>07971 489600</h1>
+                <h1>07986 655844</h1>
               </i>{" "}
-           
-          </a>
+            </a>
           </div>
-         <div>
-
-          <a href="mailto:clairewalks@gmail.com?bcc=alisparklaw@gmail.com&subject=Dog%20Care%20Query&body=Hi%20Claire,%0D%0DI%20would%20like%20to%20enquire%20about%20one%20of%20your%20services">
-      
+          <div>
+            <a href="mailto:Phil@pjdproperty.co.uk?bcc=alisparklaw@gmail.com&subject=eBike%20hire%20Query&body=Hi%20Phil,%0D%0DI%20would%20like%20to%20enquire%20about%20hiring%20an%20ebike%20please">
               <i className="fa fa-envelope-o" aria-hidden="true">
                 {" "}
-                <h1> clairewalks@gmail.com</h1>
+                <h1> Phil@pjdproperty.co.uk</h1>
               </i>
-   
-          </a>
-         </div>
-
+            </a>
+          </div>
         </div>
 
         <div className="bottom-row">
-         
-            <a
-              href="https://www.facebook.com/clairewalks/"
-              className="fa fa-facebook"
-            >
-              {" "}
-            </a>
-        
+          {/* <a
+            href="https://www.facebook.com/clairewalks/"
+            className="fa fa-facebook"
+          >
+            {" "}
+          </a> */}
+
           {/* <a
             href="https://www.facebook.com/clairewalks/"
             className="fa fa-twitter"
           >
             {" "}
           </a> */}
-          
-            <a
-              href="https://www.linkedin.com/in/claire-bloomfield-8434b016b/?originalSubdomain=uk"
-              className="fa fa-linkedin"
-            >
-              {" "}
-            </a>
-         
-            <a href=" https://wa.me/447971489600" className="fa fa-whatsapp">
-              {" "}
-            </a>
-         
-            <a
-              href="https://clairebloomfield.blogspot.com/"
-              className="fa fa-link"
-            >
-              blog
-            </a>
-         
+
+          <a
+            href="https://www.linkedin.com/in/philip-spark-404082107/?originalSubdomain=uk"
+            className="fa fa-linkedin"
+          >
+            {" "}
+          </a>
+
+          <a
+            href="https://www.instagram.com/vintagespark1980/?originalSubdomain=uk"
+            className="fa fa-instagram"
+          >
+            {" "}
+          </a>
+
+          <a href=" https://wa.me/447986 655844" className="fa fa-whatsapp">
+            {" "}
+          </a>
+
+     
         </div>
-      <div>
-      <iframe title="pick up zone" src="https://www.google.com/maps/d/u/0/embed?mid=1Dg5S797owkZ6QQPetH4R0f77c3h1UH9s" width="100%" height="480"></iframe>
-      </div>
+        <div>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1i5h5Sc2opj2GmWBe5lAkA_g1M0GCBe9D" title="embededmap" width="100%" height="480"></iframe>
+        </div>
       </div>
     </StyledContacts>
   );

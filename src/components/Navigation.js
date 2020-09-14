@@ -12,9 +12,10 @@ const Navigation = () => {
         defaultSelectedKeys={["1"]}
         style={{ lineHeight: "64px", backgroundColor: "#fff", display:"flex", justifyContent:"space-between" }}
       >
-        <Menu.Item key="1" style={{ color: "#fff" }}>
-          <Link to="/">HOME</Link>
+          <Menu.Item key="1" style={{ color: "#fff" }}>
+          <Link to="/"> <img src="https://img.icons8.com/ios/50/000000/electric-bike.png" alt="ebike icon"/></Link>
         </Menu.Item>
+        
         <Menu.Item key="2">
           <Link to="/our-bikes">OUR EBIKES</Link>
         </Menu.Item>

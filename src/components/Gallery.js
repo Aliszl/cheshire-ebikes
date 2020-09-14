@@ -29,6 +29,32 @@ import allsmall from "../img/labs.jpg";
 const Gallery = () => {
   return (
     <StyledDiv>
+
+
+<p>
+           Exploring the area
+            
+            <br /> <br />Tatton Estate circuit &nbsp; <br />
+
+            Teggs Nose <br />
+            Wizard Trail and the edge    <br />
+            <a href={  "http://www.cheshirecycleway.co.uk/wp-content/uploads/2018/08/Map-of-Cheshire-Cycleway-route-70.jpgfas"}>
+            Pick up Route 70 (cheshire cycleway) at Knolls Green
+            </a>{" "}
+           
+
+            <br /> <br />Tatton Estate &nbsp;
+            <a href={"https://www.visitcheshire.com/explore/knutsford-p33731"}>Knutsford</a>, famous mayday, georgian coaching town,  Italianate archtecture
+             &nbsp;
+            <a href={"https://www.thecourtyardknutsford.co.uk/"}>
+             Pennyfarthing museum at the Courtyard Cafe
+            </a>{" "}
+            &nbsp; .
+            <br />
+            <br />
+           Back on the road
+          
+          </p>
       <h2 className="headerCentralised">Gallery</h2>
       <p>Lorem, ipsum dolor sit amet </p>
       <Carousel className="carousel" dotPosition="top" effect="fade" autoplay>
