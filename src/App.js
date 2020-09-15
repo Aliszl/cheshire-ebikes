@@ -14,20 +14,16 @@ import { Link } from "react-router-dom";
 import { Menu, Button} from "antd";
 
 
-
-
-
-
-
-
-
-
 const { Header, Content } = Layout;
 
 function App() {
   return (
     <AppStyled id="top" className="App-header">
-      <div className="headerCentralised">Cheshire eBikes</div>
+      <div className="headerCentralised ">
+      <img src="https://img.icons8.com/ios/50/000000/electric-bike.png" alt="ebike icon"/>
+      &nbsp; &nbsp;Cheshire eBikes
+        
+        </div>
     
       <Layout>
         <Header style={{ backgroundColor: "#fff" }}>
@@ -61,7 +57,7 @@ function App() {
       </Layout>
       <footer>
         <div className="jackHeadshotDiv">
-          <img className="jackHeadshot" src="https://d3ivb44pxg89ct.cloudfront.net/assets/cube-acid-5f307a3c6ca18fa7876eb254a76c59474ee68dad253def004ade7630434b6c4c.jpg" alt="dog" />
+          <img className="jackHeadshot" src="https://d3ivb44pxg89ct.cloudfront.net/assets/cube-acid-5f307a3c6ca18fa7876eb254a76c59474ee68dad253def004ade7630434b6c4c.jpg" alt="ebike" />
 
         
         </div>

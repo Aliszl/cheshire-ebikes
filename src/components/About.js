@@ -15,7 +15,7 @@ const About = () => {
       </p>
       <br />
       <div className="lefthanded">
-        <img className="image-left"src="https://d3ivb44pxg89ct.cloudfront.net/assets/cube-touring-6417705ac21d3f2ef4a89cedd4fc725577377076333efde048b9a7b125c0be10.jpg" alt="claire" width="50%" />
+      <img className="image-left" src="https://d3ivb44pxg89ct.cloudfront.net/assets/cube-acid-5f307a3c6ca18fa7876eb254a76c59474ee68dad253def004ade7630434b6c4c.jpg" alt="cube bike" />
 
         <p className="text-right">
          Bio. (Meet Phil and Isla) <br /> <br/>
@@ -26,7 +26,7 @@ const About = () => {
         </p>
       </div>
       <div className="righthanded">
-        <img className="image-right"src="https://d3ivb44pxg89ct.cloudfront.net/assets/cube-touring-6417705ac21d3f2ef4a89cedd4fc725577377076333efde048b9a7b125c0be10.jpg" alt="claire" width="50%" />
+        <img className="image-right"src="https://d3ivb44pxg89ct.cloudfront.net/assets/cube-touring-6417705ac21d3f2ef4a89cedd4fc725577377076333efde048b9a7b125c0be10.jpg" alt="cube touring bike" width="50%" />
 
         <p className="text-left">
        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla adipisci minus distinctio aliquid, esse facere, dolores omnis nemo nobis laudantium excepturi asperiores id dolore, eveniet maiores blanditiis voluptatem eius fugit! &nbsp;

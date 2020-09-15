@@ -26,7 +26,7 @@ const Ourbikes = () => {
       </div>
       <br />
       <div className="lefthanded">
-        <img className="image-left" src="https://d3ivb44pxg89ct.cloudfront.net/assets/cube-acid-5f307a3c6ca18fa7876eb254a76c59474ee68dad253def004ade7630434b6c4c.jpg" alt="" />
+        <img className="image-left" src="https://d3ivb44pxg89ct.cloudfront.net/assets/cube-acid-5f307a3c6ca18fa7876eb254a76c59474ee68dad253def004ade7630434b6c4c.jpg" alt="cube bike" />
         <div className="text-right">
           <p>
             eBike Hire <br /> <br />
@@ -41,13 +41,13 @@ const Ourbikes = () => {
             Delivery within a 10 mile radius of Tatton.  
             <br />
            
-            {/* <Link to="/contacts">Map of pick up zone</Link> */}
+           
             <br />
           </p>
         </div>
       </div>
       <div className="righthanded">
-        <img className="image-right"  src="https://d3ivb44pxg89ct.cloudfront.net/assets/cube-acid-5f307a3c6ca18fa7876eb254a76c59474ee68dad253def004ade7630434b6c4c.jpg" alt="daschund" />
+      <img className="image-right"src="https://d3ivb44pxg89ct.cloudfront.net/assets/cube-touring-6417705ac21d3f2ef4a89cedd4fc725577377076333efde048b9a7b125c0be10.jpg" alt="cube touring bike" />
         <div className="text-left">
           <p>
           Details

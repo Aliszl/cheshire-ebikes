@@ -1,6 +1,5 @@
 import styled from "styled-components";
-// import fullWidthDogPic from "../img/jackheadshot.jpeg";
-// import { Carousel } from "antd";
+
 export const AppStyled = styled.div`
   html {
     scroll-behavior: smooth;
@@ -9,7 +8,8 @@ export const AppStyled = styled.div`
   width: 100%;
 
   body {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'Permanent Marker', cursive;
+   
     font-size: 18px;
     background-color: #ccc;
   }
@@ -40,7 +40,7 @@ export const AppStyled = styled.div`
     color: #fff;
     border-radius: 50px;
     text-align: center;
-    /* box-shadow: 2px 2px 3px #999; */
+   
   }
 
   .float-center{
@@ -52,9 +52,8 @@ export const AppStyled = styled.div`
     background-color: #06c;
     opacity:0.6;
     color: #fff;
-    /* border-radius: 50px; */
     text-align: center;
-    /* box-shadow: 2px 2px 3px #999; */
+ 
   }
   .rowOfDogs {
     margin: 0;
@@ -66,7 +65,7 @@ export const AppStyled = styled.div`
   }
   .headerCentralised {
     text-align: center;
-    font-family: "Indie Flower", cursive;
+    font-family: 'Permanent Marker', cursive;
     font-size: 50px;
     @media (max-width: 1024px) {
       font-size: 50px;
@@ -84,7 +83,7 @@ export const AppStyled = styled.div`
   }
   .pcentralised {
     text-align: center;
-    font-family: "Indie Flower", cursive;
+    font-family: 'Permanent Marker', cursive;
     font-size: 30px;
   }
 
@@ -118,7 +117,7 @@ export const StyledContacts = styled.div`
   overflow: hidden;
 
   h1 {
-    font-family: "Indie Flower", cursive;
+    font-family: 'Permanent Marker', cursive;
     font-size: 50px;
  
     @media (max-width: 1024px) {
@@ -142,9 +141,7 @@ export const StyledContacts = styled.div`
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
-    .top-row {
-     
+      .top-row {
       display: flex;
       flex-direction: row;
       justify-content:space-evenly;
@@ -153,7 +150,6 @@ export const StyledContacts = styled.div`
     .bottom-row {
       display: flex;
       flex-direction: row;
-
       justify-content:space-between;
     
     }
@@ -198,17 +194,17 @@ export const StyledContacts = styled.div`
 export const StyledDiv = styled.div`
   background-color: #fff;
   margin: 0 auto;
- 
+
   width: 100%;
   padding: 5vh 6.3vw 0vh 6.3vw;
 
   overflow: hidden;
   @media (max-width: 768px) {
-    padding:20px  20px 0 20px;
+    padding: 20px 20px 0 20px;
   }
 
   h1 {
-    font-family: "Indie Flower", cursive;
+    font-family: "Permanent Marker", cursive;
     font-size: 40px;
     text-align: center;
     @media (max-width: 1024px) {
@@ -225,8 +221,9 @@ export const StyledDiv = styled.div`
     }
   }
   h2 {
-    font-family: "Indie Flower", cursive;
-    font-size: 30px;
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: "Overpass", sans-serif;
+    font-size: 20px;
     @media (max-width: 1024px) {
       font-size: 25px;
     }
@@ -241,7 +238,7 @@ export const StyledDiv = styled.div`
     }
   }
   h3 {
-    font-family: "Indie Flower", cursive;
+    font-family: "Overpass", sans-serif;
     font-size: 25px;
     @media (max-width: 1024px) {
       font-size: 25px;
@@ -257,8 +254,9 @@ export const StyledDiv = styled.div`
     }
   }
   h4 {
-    font-family: "Indie Flower", cursive;
-    font-size: 1em;
+    /* font-family: "Indie Flower", cursive; */
+    font-family: "Permanent Marker", cursive;
+    font-size: 0.6em;
     @media (max-width: 768px) {
       font-size: 1em;
     }
@@ -289,8 +287,8 @@ export const StyledDiv = styled.div`
   li {
     margin: 0 0 0 80px;
     text-align: left;
-    font-family: "Indie Flower", cursive;
-    font-size: 40px;
+    font-family: "Permanent Marker", cursive;
+    font-size: 30px;
     text-emphasis: bold;
     @media (max-width: 768px) {
       font-size: 30px;
@@ -313,57 +311,50 @@ export const StyledDiv = styled.div`
     .image-left {
       width: 50%;
       padding-bottom: 5%;
-
     }
-      .text-right {
-        font-size:30px;
-        width: 50%;
-        padding: 30px;
-      }
+    .text-right {
+      font-size: 30px;
+      width: 50%;
+      padding: 30px;
+    }
   }
-  .righthanded{
-      display: flex;
+  .righthanded {
+    display: flex;
     flex-direction: row-reverse;
     .image-right {
       width: 50%;
-      
     }
     .text-left {
       width: 50%;
       padding: 50px;
-      font-size:30px;
+      font-size: 30px;
     }
-    }
+  }
   @media (max-width: 768px) {
-   
-      flex-direction: column;
+    flex-direction: column;
 
-      .lefthanded {
-        display: flex;
-        flex-direction: column;
-        .image-left {
-          width: 100%
-        }
-        .text-right{
-          width: 100%;
-          padding: 10px;
-      
-          }
+    .lefthanded {
+      display: flex;
+      flex-direction: column;
+      .image-left {
+        width: 100%;
       }
-   .righthanded{
-        display: flex;
+      .text-right {
+        width: 100%;
+        padding: 10px;
+      }
+    }
+    .righthanded {
+      display: flex;
       flex-direction: column;
       .image-right {
         width: 100%;
-        
       }
       .text-left {
         width: 100%;
         padding: 20px;
       }
     }
-    
-     
   }
 
   .services-row {
@@ -379,8 +370,7 @@ export const StyledDiv = styled.div`
     width: 30%;
 
     @media (max-width: 1000px) {
-  
-    width: 50%;
+      width: 50%;
     }
     .servicesBox-header {
       display: flex;
@@ -397,7 +387,7 @@ export const StyledDiv = styled.div`
       padding: 40px 10px 0 10px;
       .headerCentralised {
         text-align: center;
-        font-family: "Indie Flower", cursive;
+        font-family: "Permanent Marker", cursive;
         font-size: 25px;
       }
       .servicesBox-header {
@@ -409,77 +399,73 @@ export const StyledDiv = styled.div`
           width: 30%;
         }
       }
-    
-
-
-  }
-
-  .carouselandtext {
-    text-align: center;
-    font-size: 25px;
-    margin-top: 40px;
-    display: flex;
-    h1 {
-      width: 100%;
-      text-align: center;
     }
-    
-    .carousel-container {
-      border: 1px solid red;
-    }
-    .carousel {
-      border:red solid 4 px;
-    }
-    
-  }
- 
-  .ant-carousel .slick-slide {
-    text-align: center;
-    height: auto;
-    line-height: 160px;
-    background: #364d79;
-    overflow: hidden;
-  }
-  .ant-carousel .slick-slide h3 {
-    color: #fff;
-  }
-  h3 {
-    text-align: center;
-    font-size: 5vh;
-  }
-  h4 {
-    font-size: 6vw;
-  }
-  .text-container {
-    margin: 0 auto;
-    border: 5%;
-  }
-  .footer {
-    margin: 0 auto;
-  }
 
-  @media (min-width: 768px) {
     .carouselandtext {
+      text-align: center;
+      font-size: 25px;
+      margin-top: 40px;
       display: flex;
-      flex-direction: column-reverse;
-      .carousel {
-        margin: 0, auto;
-        width: 100vw;
+      h1 {
+        width: 100%;
         text-align: center;
-        .carouselpic {
+      }
+
+      .carousel-container {
+        border: 1px solid red;
+      }
+      .carousel {
+        border: red solid 4 px;
+      }
+    }
+
+    .ant-carousel .slick-slide {
+      text-align: center;
+      height: auto;
+      line-height: 160px;
+      background: #364d79;
+      overflow: hidden;
+    }
+    .ant-carousel .slick-slide h3 {
+      color: #fff;
+    }
+    h3 {
+      text-align: center;
+      font-size: 5vh;
+    }
+    h4 {
+      font-size: 6vw;
+    }
+    .text-container {
+      margin: 0 auto;
+      border: 5%;
+    }
+    .footer {
+      margin: 0 auto;
+    }
+
+    @media (min-width: 768px) {
+      .carouselandtext {
+        display: flex;
+        flex-direction: column-reverse;
+        .carousel {
+          margin: 0, auto;
           width: 100vw;
-          border-radius: 8px;
-          align-items: center;
-        }
-        img {
-          display: flex;
-          justify-content: center;
-          margin-left: 28vw;
-          width: 400px;
-          border-radius: 8px;
+          text-align: center;
+          .carouselpic {
+            width: 100vw;
+            border-radius: 8px;
+            align-items: center;
+          }
+          img {
+            display: flex;
+            justify-content: center;
+            margin-left: 28vw;
+            width: 400px;
+            border-radius: 8px;
+          }
         }
       }
     }
-  }
   }
 `;

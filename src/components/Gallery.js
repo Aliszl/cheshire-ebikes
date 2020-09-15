@@ -33,7 +33,7 @@ const Gallery = () => {
 
 
 <p>
-           Exploring the area
+<h1 className="headerCentralised">Exploring the area</h1>
             
             <br /> <br />Tatton Estate circuit &nbsp; <br />
 
@@ -53,7 +53,7 @@ const Gallery = () => {
             &nbsp; .
             <br />
             <br />
-           Back on the road
+        
           
           </p>
       <h2 className="headerCentralised">Gallery</h2>

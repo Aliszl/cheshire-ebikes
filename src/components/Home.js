@@ -18,8 +18,9 @@ const Home = () => {
   return (
     <StyledDiv>
       <h1>eBike hire in Knutsford </h1>
-      <h2>(and surrounding areas)</h2>
+      <h1>(and surrounding areas)</h1>
       <br />
+      <img className="jackHeadshot" src="https://d3ivb44pxg89ct.cloudfront.net/assets/cube-acid-5f307a3c6ca18fa7876eb254a76c59474ee68dad253def004ade7630434b6c4c.jpg" alt="dog" />
       <ul>
         <li>Half day, full day and longterm rental</li>
         <li>
